@@ -1,0 +1,39 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import "./variables.scss";
+
+@include media-breakpoint-up(xs) {
+    // Picture
+    .picture {
+        width: $picture-sm-width;
+        height: $picture-sm-height;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    // Picture
+    .picture {
+        width: $picture-md-width;
+        height: $picture-md-height;
+    }
+
+    // Description
+    .description {
+        width: $picture-md-width;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    // Picture
+    .picture {
+        width: $picture-lg-width;
+        height: $picture-lg-height;
+    }
+
+    // Description
+    .description {
+        width: $picture-lg-width;
+    }
+}

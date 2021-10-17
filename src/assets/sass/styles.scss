@@ -1,0 +1,31 @@
+
+@import "./variables.scss";
+
+body, a, a:hover {
+    color: $font-color;
+}
+
+// Custom Color 
+.extra-light {
+    color: $light-dark;
+}
+
+// Forms
+.form-control {
+    border: 0;
+}
+
+// Thumbnail
+.thumbnail {
+    width: $thumbnail-width;
+    height: $thumbnail-height;
+    border-radius: $thumbnail-rounded;
+}
+
+// Loading
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+}
