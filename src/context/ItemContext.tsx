@@ -51,6 +51,8 @@ export const ItemProvider = (props: any) => {
       setCategories(res.data.categories);
     }).catch(error => {
       console.error(`error`, error);
+      setItem(null);
+      setIsLoading(false);
     }).finally(() => setIsLoading(false));
     return promise;
   };

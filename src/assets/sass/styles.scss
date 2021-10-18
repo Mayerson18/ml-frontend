@@ -16,6 +16,10 @@ body, a, a:hover {
 }
 
 // Thumbnail
+.container-thumbnail {
+    position: relative;
+}
+
 .thumbnail {
     width: $thumbnail-width;
     height: $thumbnail-height;
@@ -28,4 +32,20 @@ body, a, a:hover {
     top: 50%;
     left: 50%;
     translate: (-50%, -50%);
+}
+
+// Shipping
+.shipping {
+    position: absolute;
+    top: 1px;
+    right: -1em;
+    top: .3em;
+}
+
+.relative {
+    position: relative;
+}
+
+.transparent {
+    background: transparent;
 }

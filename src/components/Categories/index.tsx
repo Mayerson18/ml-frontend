@@ -9,7 +9,7 @@ const Categories = ({categories}: ICategories) => {
     <Breadcrumb 
       tag="nav" 
       listTag="div" 
-      listClassName="p-0 mb-0"
+      listClassName="p-0 mb-0 transparent"
       aria-label=">">
       {
         categories.map((category: any, index: number) => (
