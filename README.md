@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Configuration Env
+add .env file to root project
+
+url api heroku
+API_URL=https://mayerson-ml-backend.herokuapp.com
+or url api local
+API_URL=http://localhost:3000
